@@ -1,0 +1,201 @@
+body{
+  font-family: 'Montserrat';
+
+}
+
+
+.Montserrat{font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+color: white;
+line-height: 1.5;
+font-weight: Bold;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+/* navbar-brand */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: Bold;
+  font-size:2.5rem;
+}
+
+.navbar{
+  padding-bottom: 2.5rem;
+}
+.nav-link{
+  color: #fff;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Icons */
+.fa-circle-check{
+font-size: 3rem;
+  color: #ef8172;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.fa-circle-check:hover{
+  color: #ff4c68;
+}
+
+.fa-bullseye{
+  font-size: 3rem;
+    color: #ef8172;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.fa-bullseye:hover{
+  color: #ff4c68;
+}
+
+.fa-heart{
+    font-size: 3rem;
+      color: #ef8172;
+      align-items: center;
+      padding: 10px 0 10px 0;
+}
+
+.fa-heart:hover{
+  color: #ff4c68;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1%;
+
+}
+.from-top{
+padding: 5% 3%;
+
+}
+
+h2{
+
+  line-height: 1.5;
+}
+
+.dogimg{
+  transform: rotate(25deg);
+  width: 60%;
+  margin: 40px 80px;
+position: relative;
+left: 10%;
+bottom: 3%
+}
+
+
+
+#features{
+text-align: center;
+background-color: #fff;
+padding: 7% 15%;
+
+
+}
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat';
+font-weight: bold;
+
+}
+.testimonial-img{
+  width: 13%;
+  border-radius: 100%;
+  margin: 2% 1% 2% 1%
+}
+.testimonial-Pebbles{
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.four-img{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 3% 10%;
+}
+
+#pricing{
+padding: 100px;
+
+}
+
+.card{
+}
+
+.col-price{
+  padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+
+}
+.truelove{
+  padding: 5% 10% 0% 10%
+}
+.trueloves{
+  margin: auto;
+}
+#footer{
+  text-align: center;
+}
+.faicon{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10Px 10Px 10Px 10px;
+  font-size: 30px;
+}
+
+.faicon:hover{
+  color: #ff4c68;
+  transition: 0.3s;
+}
+
+@media (max-width:1028px) {
+  .dogimg{
+    transform: rotate(0deg);
+    position: static;
+  }
+  h1{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .faicon{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10Px 10Px 10Px 10px;
+    font-size: 40px;
+  }
+}
